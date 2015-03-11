@@ -41,13 +41,115 @@ padding: 8px 10px;
 		</script>
 				
 <div class="g-top" id="gTop">
-	<div class="g_main"><div class="mask g_main_mask"></div><div class="g_main_c"><div class="logo"><a title="土豆 tudou.com 每个人都是生活的导演" href="http://www.tudou.com">土豆</a><div class="ad_banner" id="ab_101626"></div></div><div class="g_mininav" id="gMiniNav"><span class="g_dropdown_toggle"><i class="iconfont">&#xe602;</i>导航</span><i class="caret"><i></i></i><div class="g_dropdown_menu fix"><dl class="dl"><dt><a href="http://www.tudou.com/">土豆首页</a></dt><dd><a href="http://tv.tudou.com/" class="wd">电视剧</a><a href="http://movie.tudou.com/">电影</a><a href="http://zy.tudou.com/">综艺</a><a href="http://cartoon.tudou.com/">动漫</a><a href="http://music.tudou.com/">音乐</a><a href="http://danmu.tudou.com/">弹幕</a></dd><dt>娱乐中心
-</dt><dd><a href="http://imake.tudou.com/">原创</a><a href="http://fun.tudou.com/">搞笑</a><a href="http://game.tudou.com/">游戏</a><a href="http://ent.tudou.com/">娱乐</a><a href="http://cps.laifeng.com/redirect.html?id=0001404e" target="_blank" >直播</a></dd><dt>资讯中心
-</dt><dd><a href="http://news.tudou.com/">热点</a><a href="http://sports.tudou.com/">体育</a><a href="http://it.tudou.com/">科技</a><a href="http://jilupian.tudou.com/">纪实</a><a href="http://auto.tudou.com/">汽车</a></dd><dt>生活中心
-</dt><dd><a href="http://fashion.tudou.com/">时尚</a><a href="http://edu.tudou.com/">成长</a><a href="http://life.tudou.com/">乐活</a><a href="http://wanhuo.tudou.com/">玩货</a></dd><dt class="ls">综合
-</dt><dd><a href="http://www.tudou.com/list/index.html">片库</a><a href="http://www.tudou.com/top/rank.html">排行</a><a href="http://vip.tudou.com/">会员</a><a href="http://share.tudou.com/">分成</a><a href="http://www.tudou.com/verify/index.do">认证</a></dd><dt class="ls">软件
-</dt><dd><a href="http://mobile.tudou.com/pc/">iTudou(pc客户端)</a><a href="http://mobile.tudou.com/">App下载</a><a href="http://open.tudou.com/">开放平台</a></dd></dl></div></div><div class="g-search"><form action="http://www.soku.com/t/nisearch.do" method="get" searchtype="" target="_blank"><div class="g-search-box"><input class="g-search-text tui_searchint" type="text" accesskey="s" value="" name="kw" autocomplete="off" onfocus="this['_gs_focus']=1" onblur="this['_gs_focus']=0" /></div><div class="g-search-btn"><button class="g-search-submit" type="submit"><i class="iconfont">&#xe61d;</i>搜库</button></div><input type="hidden" value="td.t" name="cid" disabled="disabled" /></form><a href="http://www.tudou.com/top/rank.html" class="g-rank iconfont" target="_blank" title="土豆排行榜">&#xe632;</a></div><div class="g_user_wrap"><div id="uInfo" class="g_user"><a href="http://login.tudou.com/login.do?noreg=ok" class="link" target="_blank" id="login"><i class="iconfont">&#xe610;</i>登录</a></div><div id="historyNav" class="g_history"><a href="http://www.tudou.com/watch/history/" target="_blank" class="g_dropdown_toggle"><i class="iconfont">&#xe613;</i>记录</a><i class="caret"><i></i></i><div class="g_dropdown_menu" id="historyPanel"><div class="sub_bd" id="historyContainer"><ul id="historyTabs" class="history_tabs fix"><li class="current on"><a href="#" rel="0">剧集记录</a></li><li><a href="#" rel="1">全部记录</a></li></ul><div id="historyList" class="history_list history_loading"><div id="historyListInner" class="history_list_inner"><div class="c" style="display: block;"><ul id="historyAlbum"></ul></div><div class="c" style="display: none;"><ul id="historyAll"></ul></div></div><i class="loading"></i></div><div class="history_do"><a title="清空" href="#" id="historyClear" class="history_clear">清空</a></div></div><div class="sub_ft"><a href="http://www.tudou.com/watch/history/" target="_blank">查看全部观看记录</a></div></div></div><div id="uploadNav" class="g_upload"><a href="http://www.tudou.com/my/program/publish.html" id="uploadVideo" target="_blank" class="g_dropdown_toggle"><i class="iconfont">&#xe615;</i>上传</a><i class="caret"><i></i></i><div class="g_dropdown_menu"><ul class="fix"><li><a href="http://www.tudou.com/my/program/publish.html" target="_blank"><i class="iconfont">&#xe615;</i>上传视频</a></li><li><a href="http://www.tudou.com/my/center/item/itemList.do" target="_blank"><i class="iconfont">&#xe616;</i>视频管理</a></li><li><a href="http://share.tudou.com/" target="_blank"><i class="iconfont">&#xe650;</i>分成计划</a></li></ul></div></div><div class="g_message" id="gTopMessage"><a href="http://www.tudou.com/my/center/message.action" target="_blank" class="g_dropdown_toggle"><i class="iconfont">&#xe63b;</i>消息
-</a></div></div></div></div>
+	<div class="g_main">
+		<div class="mask g_main_mask"></div>
+		<div class="logo">
+			<a title="土豆 tudou.com 每个人都是生活的导演" href="http://www.tudou.com">土豆</a>
+			<div class="g_slidernav active" id="gSilderNav">
+					<i></i>导航
+			</div>			
+			<div class="ad_banner" id="ab_101626"></div>
+		</div>		
+		<div class="g_main_c">
+
+	<!-- 			<div class="g_mininav" id="gMiniNav">
+					<span class="g_dropdown_toggle"><i class="iconfont">&#xe602;</i>导航</span>
+					<i class="caret"><i></i></i>
+					<div class="g_dropdown_menu fix"></div>
+			</div> -->
+			<div class="g-search">
+				<form action="http://www.soku.com/t/nisearch.do" method="get" searchtype="" target="_blank">
+					<div class="g-search-box">
+						<input class="g-search-text tui_searchint" type="text" accesskey="s" value="" name="kw" autocomplete="off" onfocus="this['_gs_focus']=1" onblur="this['_gs_focus']=0" />
+					</div>
+					<div class="g-search-btn">
+						<button class="g-search-submit" type="submit"><i class="iconfont">&#xe61d;</i>搜库</button>
+					</div>
+					<input type="hidden" value="td.t" name="cid" disabled="disabled" />
+				</form>
+				<a href="http://www.tudou.com/top/rank.html" class="g-rank iconfont" target="_blank" title="土豆排行榜">&#xe632;</a>
+			</div>
+		</div>
+		<div class="g_user_wrap">	
+				<div id="uploadNav" class="g_upload">
+					<a href="http://www.tudou.com/my/program/publish.html" id="uploadVideo" target="_blank" class="g_dropdown_toggle">上传视频</a>
+					<i class="caret"><i></i></i>
+					<div class="g_dropdown_menu">
+						<ul class="fix">
+							<li>
+								<a href="http://www.tudou.com/my/program/publish.html" target="_blank"><i class="iconfont">&#xe615;</i>上传</a>
+							</li>
+							<li>
+								<a href="http://www.tudou.com/my/center/item/itemList.do" target="_blank"><i class="iconfont">&#xe616;</i>视频管理</a>
+							</li>
+							<li>
+								<a href="http://www.tudou.com/my/center/item/itemList.do" target="_blank"><i class="iconfont">&#xe616;</i>指数</a>
+							</li>							
+							<li>
+								<a href="http://share.tudou.com/" target="_blank"><i class="iconfont">&#xe650;</i>分成</a>
+							</li>
+						</ul>
+						<a class="join_lm_link" target="_blank" href="#">
+							创作者工作室<span>加入土豆原创播客联盟</span>
+						</a>
+					</div>
+				</div>	
+				<div id="ulogin" class="g_login active">
+					<a href="http://login.tudou.com/login.do?noreg=ok" class="g_dropdown_toggle" target="_blank" id="login">登录</a>	
+					<i class="caret"><i></i></i>
+					<div class="g_dropdown_menu">
+						<ul class="ul_top fix">
+							<li class="hellow">
+								HI~ 你好
+							</li>
+							<li>
+								<a href="http://login.tudou.com/login.do?noreg=ok" class="login_btn" target="_blank" id="login">登录</a>	
+							</li>
+							<li>
+								<a href="http://login.tudou.com/login.do?noreg=ok" class="reg_btn" target="_blank" id="login">注册</a>	
+							
+							</li>							
+
+						</ul>
+						<ul class="ul_bottom">
+							<li>
+								<a href="">
+									我的收藏 
+								</a>
+							</li>
+							<li>
+								<a href="">
+									我的收藏 
+								</a>
+							</li>
+							<li>
+								<a href="">
+									我的收藏 
+								</a>
+							</li>
+							<li>
+								<a href="">
+									我的收藏 
+								</a>
+							</li>																					
+						</ul>
+					</div>									
+				</div>					
+				<div id="uInfo" class="g_user">
+					<a href="http://login.tudou.com/login.do?noreg=ok" class="link" target="_blank" id="login"><i class="iconfont">&#xe610;</i>登录</a>
+
+				</div>
+
+
+				<div class="g_message" id="gTopMessage">
+					<a href="http://www.tudou.com/my/center/message.action" target="_blank" class="g_dropdown_toggle">
+						<i class="iconfont">&#xe63b;</i>消息
+					</a>
+				</div>				
+			</div>
+
+		</div>		
+	</div>
 
 
 </div>		
